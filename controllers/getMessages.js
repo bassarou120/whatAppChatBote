@@ -1,4 +1,4 @@
-import { getSession } from '../whatsapp.js'
+import { getSession } from '../middlewares/req.js'
 import response from './../response.js'
 
 const getMessages = async (req, res) => {

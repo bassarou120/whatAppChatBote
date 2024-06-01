@@ -1,4 +1,4 @@
-import { isSessionExists } from '../whatsapp.js'
+import { isSessionExists } from '../middlewares/req.js'
 import response from './../response.js'
 
 const validate = (req, res, next) => {
@@ -7,6 +7,7 @@ const validate = (req, res, next) => {
     if (!isSessionExists(sessionId)) {
         return response(res, 404, false, 'Session not found.')
     }
+    console.log('done')
 
     res.locals.sessionId = sessionId
     next()

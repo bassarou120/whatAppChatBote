@@ -1,4 +1,4 @@
-import { getSession, getChatList, isExists, sendMessage, formatPhone } from './../whatsapp.js'
+import { getSession, getChatList, isExists, sendMessage, formatPhone } from '../middlewares/req.js'
 import response from './../response.js'
 
 const getList = (req, res) => {
