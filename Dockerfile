@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the code
-COPY . .
+COPY . /usr/src/app
 
 # Expose the port that the app listens on
 EXPOSE 80

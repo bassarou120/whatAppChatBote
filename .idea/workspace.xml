@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ee2eb3-eca2-4969-8ddb-9759428ebd89" name="Default Changelist" comment="env port 80 add url">
-      <change afterPath="$PROJECT_DIR$/bot/tes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacts/tes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embed/tes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/embed" />
+      <recent name="$PROJECT_DIR$/contacts" />
+      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717407930240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="env port 80 add url">
+      <created>1717409886681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717409886681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
